@@ -1,4 +1,5 @@
 # Virtualness Assignment
+![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)
 
 This application is designed to ingest a stream of user activity events and apply business rules to trigger operational alerts and actions.
 
@@ -58,7 +59,9 @@ This application is designed to ingest a stream of user activity events and appl
 ## API Endpoints
 
 - POST `/events`: Endpoint to receive and process event data.
+  ![Screenshot](static/post_api.png)
 - GET `/events`: Endpoint to check 10 latest events data.
+  ![Screenshot](static/get_api.png)
 
 ## Testing
 
